@@ -21,14 +21,14 @@
 public class PalindromeCheckerApp {
     public static void main(String[] args){
         //Hardcoded string
-        String word ="Nikhil";
+        String word ="Sulav";
         boolean isPalindrome=true;
         for(int i=0;i<word.length()/2;i++){
             if(word.charAt(i)!=word.charAt(word.length()-i-1)){
                 isPalindrome=true;
             }
         }
-        System.out.println("Input text: Nikhil");
+        System.out.println("Input text: Sulav");
         System.out.print("is it palindrome?:");
         if (isPalindrome){
             System.out.println("true");
